@@ -17,6 +17,10 @@
 
 
 import SwiftUI
+import FirebaseCore
+import FirebaseFirestore
+
+
 
 struct Settings: View {
 
@@ -24,6 +28,7 @@ struct Settings: View {
     @State var email = ""
     @State var Password = ""
     @State var submit = false
+    
     
     var body: some View {
         
