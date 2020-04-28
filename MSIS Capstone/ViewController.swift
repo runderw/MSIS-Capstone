@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import FirebaseFirestore
 import Firebase
 
 class ViewController: UIViewController {

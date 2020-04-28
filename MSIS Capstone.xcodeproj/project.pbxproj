@@ -21,7 +21,8 @@
 		7C43F1B52452290800B8289C /* HomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C43F1B42452290800B8289C /* HomeList.swift */; };
 		7C43F1B72452291300B8289C /* CompanyDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C43F1B62452291300B8289C /* CompanyDetail.swift */; };
 		7C43F1B92452293C00B8289C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C43F1B82452293C00B8289C /* Settings.swift */; };
-		A154F8639B913787C5A27881 /* Pods_MSIS_Capstone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC17634FA1E8211CFC817DE2 /* Pods_MSIS_Capstone.framework */; };
+		A9820B072457FA45006B9DDD /* Pods_MSIS_Capstone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC17634FA1E8211CFC817DE2 /* Pods_MSIS_Capstone.framework */; };
+		A9820B082457FA45006B9DDD /* Pods_MSIS_Capstone.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC17634FA1E8211CFC817DE2 /* Pods_MSIS_Capstone.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A9E640B02454EB8E008A4CB4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9E640AF2454EB8E008A4CB4 /* GoogleService-Info.plist */; };
 		A9E640B12454EB8E008A4CB4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9E640AF2454EB8E008A4CB4 /* GoogleService-Info.plist */; };
 		A9E640B22454EB8E008A4CB4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9E640AF2454EB8E008A4CB4 /* GoogleService-Info.plist */; };
@@ -46,6 +47,20 @@
 			remoteInfo = "MSIS Capstone";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A9820B092457FA45006B9DDD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A9820B082457FA45006B9DDD /* Pods_MSIS_Capstone.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0840DE8710385E90D73B570A /* Pods-MSIS Capstone-MSIS CapstoneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSIS Capstone-MSIS CapstoneUITests.release.xcconfig"; path = "Target Support Files/Pods-MSIS Capstone-MSIS CapstoneUITests/Pods-MSIS Capstone-MSIS CapstoneUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,7 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A154F8639B913787C5A27881 /* Pods_MSIS_Capstone.framework in Frameworks */,
+				A9820B072457FA45006B9DDD /* Pods_MSIS_Capstone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +229,7 @@
 				7C43F178245228C600B8289C /* Frameworks */,
 				7C43F179245228C600B8289C /* Resources */,
 				07C2D00E28C34B0B764E7729 /* [CP] Embed Pods Frameworks */,
+				A9820B092457FA45006B9DDD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -503,7 +519,7 @@
 		7C43F1A3245228C700B8289C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -564,7 +580,7 @@
 		7C43F1A4245228C700B8289C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -620,6 +636,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 692FB03BDC8D31B71FBE9043 /* Pods-MSIS Capstone.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MSIS Capstone/Preview Content\"";
@@ -640,6 +657,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 22B49A9ED06DA099C237EA25 /* Pods-MSIS Capstone.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MSIS Capstone/Preview Content\"";
@@ -660,7 +678,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F6E0DE2882268F902AD9D2B /* Pods-MSIS CapstoneTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "MSIS CapstoneTests/Info.plist";
@@ -682,7 +700,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F354308125A2A6D40CAAC74C /* Pods-MSIS CapstoneTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "MSIS CapstoneTests/Info.plist";
@@ -704,7 +722,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 53ADBCBEB411F2268612F664 /* Pods-MSIS Capstone-MSIS CapstoneUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "MSIS CapstoneUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -724,7 +742,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0840DE8710385E90D73B570A /* Pods-MSIS Capstone-MSIS CapstoneUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "MSIS CapstoneUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
