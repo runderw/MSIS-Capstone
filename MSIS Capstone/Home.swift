@@ -1,13 +1,5 @@
 //
 //  Home.swift
-//  MSIS Capstone
-//
-//  Created by Robert Underwood on 4/23/20.
-//  Copyright © 2020 Robert Underwood. All rights reserved.
-//
-
-//
-//  Home.swift
 //  FinalProjectMSIS
 //
 //  Created by Robert Underwood on 3/31/20.

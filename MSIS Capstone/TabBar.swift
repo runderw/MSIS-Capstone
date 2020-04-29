@@ -1,10 +1,3 @@
-//
-//  TabBar.swift
-//  MSIS Capstone
-//
-//  Created by Robert Underwood on 4/23/20.
-//  Copyright © 2020 Robert Underwood. All rights reserved.
-//
 //  TabBar.swift
 //  FinalProjectMSIS
 //
