@@ -221,7 +221,7 @@ struct UpdateD: View {
     //show @State var show = false
     @Binding var sow: Bool
     var title = "Notifications?"
-    var text = "If you would like to recieve notifications please enbable them in the attendance page!"
+    var text = "If you would like to recieve notifications please enable them in the attendance page!"
     var image = "Illustration2"
     var body: some View {
         

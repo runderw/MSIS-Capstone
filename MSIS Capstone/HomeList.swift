@@ -175,12 +175,13 @@ let coursesData = [
          
         shadowColor: Color("backgroundShadow4")
     ),
-    Course(
-          title: "Masters Program",
-          image: "MS_BUS_ANLY_DTA_SCI_Vrt_2_CMYK",
-          color: Color(#colorLiteral(red: 0.9411764741, green: 0.4980392158, blue: 0.3529411852, alpha: 1)),
-          shadowColor: Color("backgroundShadow4")
-      ),
+ Course(
+       title: "Sponsered by...",
+       image: "Paycom",
+       color: Color(#colorLiteral(red: 0.9411764741, green: 0.4980392158, blue: 0.3529411852, alpha: 1)),
+        
+       shadowColor: Color("backgroundShadow4")
+   ),
 
 ]
 
