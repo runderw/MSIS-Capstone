@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import FirebaseFirestoreSwift
 
 class ViewController: UIViewController {
 
@@ -28,7 +29,7 @@ class ViewController: UIViewController {
     private func setDocument() {
           // [START set_document]
           // Add a new document in collection "attendance"
-          db.collection("attendance").document("4-12-2020").setData([
+          db.collection("attendance").document("4-30-2020").setData([
               "CWID": "A1234567",
               "email": "email@okstate.edu",
               "Password": "TestPassword123"

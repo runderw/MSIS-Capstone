@@ -10,7 +10,7 @@
 import SwiftUI
 import FirebaseCore
 import FirebaseFirestore
-
+import FirebaseFirestoreSwift
 
 
 struct Settings: View {
@@ -61,3 +61,4 @@ struct Settings_Previews: PreviewProvider {
         Settings()
     }
 }
+

@@ -9,21 +9,27 @@
 import UIKit
 import Firebase
 import FirebaseFirestore
+import FirebaseFirestoreSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Use Firebase library to configure APIs
         FirebaseApp.configure()
         
+        let db = Firestore.firestore()
+             // [END default_firestore]
+        
+             print(db) // silence warning
+        
         // Override point for customization after application launch.
         return true
     }
 
-    // MARK: UISceneSession Lifecycle
+    //UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         // Called when a new scene session is being created.
@@ -39,4 +45,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+
 
