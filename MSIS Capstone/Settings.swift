@@ -40,12 +40,16 @@ struct Settings: View {
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                 }
                 
-                Button(action: { self.submit.toggle() }) {
+                Button(action: { self.submit.toggle()
+                    func buttonClick() {
+                                          print("Attendance Submitted")
+                                          return
+                                      }
+                  
+                }) {
                     
                     Text("Submit")
                 }
-
-                  
                     
                 .navigationBarTitle(Text("Attendance"))
             }
