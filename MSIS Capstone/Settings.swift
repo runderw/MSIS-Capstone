@@ -8,9 +8,7 @@
 
 
 import SwiftUI
-import FirebaseCore
-import FirebaseFirestore
-import FirebaseFirestoreSwift
+import SQLite3
 
 
 struct Settings: View {
@@ -58,6 +56,7 @@ struct Settings: View {
 
 struct Settings_Previews: PreviewProvider {
     static var previews: some View {
+        
         Settings()
     }
 }
